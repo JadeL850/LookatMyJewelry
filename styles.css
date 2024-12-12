@@ -1,0 +1,48 @@
+.menu {
+    background-color: #f0f0f0;
+}
+
+body {
+    font-family: Famijen Grotesk, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    color: #000000;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.nav{
+    list-style-type: none;
+}
+
+.id{
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
