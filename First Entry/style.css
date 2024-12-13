@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.outer-container{
+    background-color:white;
+    height:100vh;
+}
+
+.nav-list {
+    position: absolute; /* Position the header absolutely */
+    top: 20px;         /* Distance from the top */
+    right: 30px;
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+    align-items: center;       /* Vertically centers items */
+    gap: 20px;                /* Space between items */
+    padding: 20px;            /* Padding around the header */
+    font-size: 16px;          /* Font size */
+    font-family: 'Times New Roman', Times, serif; /* Font family */
+    color: black;             /* Text color */
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.outer-container{
+    height:100vh;
+}
+
+.inner-module{
+    background-color: white;
+    height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-column{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+.right-column{
+    width:50%;
+    height:100%;
+    padding:20px;
+}
+
+.image-container{
+    width: 100%;
+    height: 100%;
+}
+
+.image-container img{
+    width: 50%;
+    object-fit: cover;
+}
+
+#cover-photo{
+    width:400px;
+    height: 490px;
+    position: absolute;
+    top: 90px;
+    left: 860px;
+}
+
+.header-container{
+    display: flex;
+    gap: 16px;
+}
+
+.header-item{
+    padding-top: 210px;
+    font-size:50px;
+    flex:1;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-image{
+    width: 1800px;
+    height: 1800px;
+}
+
+#subhead-image{
+    padding-top: 50px;
+    position:absolute;
+    left: 290px;
+    width:130px;
+}
+
+.paragraph-container{
+    padding-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.second-header{
+    font-size:32px;
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    right: 300px;
+    top: 650px;
+}
+
+.second-paragraph-container{
+    position:absolute;
+    top: 780px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#jade-ring{
+    position:absolute;
+    top: 400px;
+    width: 1200px;
+    height: 1000px;
+    right: 500px;
+    animation: fadeIn 5s;
+      }
+      
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+}
+
+
+#jade-necklace{
+    position: absolute;
+    padding-top: -20px;
+    margin-top: -190px;
+    left: 20px;
+    width: 800px;
+    animation: fadeIn 5s;
+      }
+      
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+
+}
+
+#third-left{
+    position:absolute;
+    left: 120px;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#third-right{
+    position:absolute;
+    right: 118px;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+}
+
+.paragraph-two{
+    position:absolute;
+    top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#subhead-two{
+    font-size: 40px;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#subhead-two-b{
+    font-size: 28px;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 68px;
+}
+
+#fourth-left{
+    position:absolute;
+    left: 118px;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    top: 1820px;
+}
+
+#rat-bracelet{
+    width: 700px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+
+    animation: fadeIn 5s;
+      }
+      
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+}
+
+#fourth-right{
+    position:absolute;
+    right: 120px;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    top: 1820px;
+}
+#subhead-three{
+    font-size: 40px;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#subhead-three-b{
+    font-size: 28px;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 135px;
+}
+
+.paragraph-three{
+   position:absolute;
+   top: 250px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#fifth-left{
+    position: absolute;
+    right: 800px;
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subhead-four{
+    font-size: 40px;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#subhead-four-b{
+    font-size: 28px;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 100px;
+}
+
+.paragraph-four{
+    position:absolute;
+   top: 210px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#fifth-right{
+    position: absolute;
+    left: 670px;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    top: 13px;
+}
+
+#friendship-bracelet{
+    position: absolute;
+    left: 5px;
+    width: 600px;
+
+    animation: fadeIn 5s;
+      }
+      
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+}
